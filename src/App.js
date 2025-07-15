@@ -29,7 +29,7 @@ function App() {
 
     try {
       // Using fetch instead of axios for compatibility
-      const res = await fetch('https://ai-tool-using-nlp.onrender.com/api/chat', {
+      const res = await fetch('https://https://ai-tool-using-nlp.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
